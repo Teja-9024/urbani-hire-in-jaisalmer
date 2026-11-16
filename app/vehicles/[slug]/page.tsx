@@ -81,7 +81,7 @@ function generateJsonLd(vehicle: ReturnType<typeof getVehicleBySlug>) {
         image: vehicle.gallery,
         brand: {
             '@type': 'Organization',
-            name: 'Urbania Hire India',
+            name: 'Urbania Hire in Jaisalmer',
         },
         aggregateRating: {
             '@type': 'AggregateRating',

@@ -14,7 +14,7 @@ export async function generateMetadata({
 
     if (!model || model.type !== 'itinerary') {
         return {
-            title: "Tour Not Found - Urbania Hire India",
+            title: "Tour Not Found - Urbania Hire in Jaisalmer",
         };
     }
 

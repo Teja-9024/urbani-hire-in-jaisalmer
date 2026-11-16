@@ -37,7 +37,7 @@ export default function TourSchema({
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Urbania Hire India",
+      "name": "Urbania Hire in Jaisalmer",
       "telephone": "+91-89493-04824",
       "email": "ckptours@gmail.com"
     },

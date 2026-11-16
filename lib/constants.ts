@@ -19,12 +19,12 @@ export const CONTACT_INFO = {
   
   // Address
   address: "Rajasthan, India",
-  addressFull: "Bikaner, Rajasthan 334001, India",
+  addressFull: "Jaisalmer, Rajasthan 345001, India",
 };
 
 // Company Info
 export const COMPANY_INFO = {
-  name: "Urbania Hire India",
-  shortName: "Urbania Hire India",
+  name: "Urbania Hire in Jaisalmer",
+  shortName: "Urbania Hire in Jaisalmer",
   tagline: "Your trusted partner for comfortable and reliable Urbania rentals across India",
 };

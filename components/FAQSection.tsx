@@ -80,9 +80,9 @@ const faqs = [
             "Absolutely! Our Force Urbania vehicles are perfect for wedding guest transportation. We can arrange multiple vehicles for large wedding parties and offer special wedding packages.",
     },
     {
-        question: "Why choose Urbania Hire India for Force Urbania rental?",
+        question: "Why choose Urbania Hire in Jaisalmer for Force Urbania rental?",
         answer:
-            "Urbania Hire India offers well-maintained vehicles, experienced drivers, 24/7 customer support, flexible packages, competitive pricing, and a commitment to safe and comfortable travel. Customer satisfaction is our priority.",
+            "Urbania Hire in Jaisalmer offers well-maintained vehicles, experienced drivers, 24/7 customer support, flexible packages, competitive pricing, and a commitment to safe and comfortable travel. Customer satisfaction is our priority.",
     },
 ];
 
@@ -103,7 +103,7 @@ const FAQSection = () => {
                     </h2>
                     <div className="w-24 h-1 bg-[#FF8C00] rounded-full mx-auto mb-8"></div>
                     <p className="text-lg text-muted-foreground">
-                        Everything you need to know about booking with Urbania Hire India
+                        Everything you need to know about booking with Urbania Hire in Jaisalmer
                     </p>
                 </div>
 

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const cityData = getCityById(city);
 
   return {
-    title: cityData?.metaTitle || `Force Urbania Rental in ${cityName} | 12 15 17 Seater | Urbania Hire India`,
+    title: cityData?.metaTitle || `Force Urbania Rental in ${cityName} | 12 15 17 Seater | Urbania Hire in Jaisalmer`,
     description: cityData?.metaDescription || `Book Force Urbania in ${cityName}. Premium 12, 15, 17 seater luxury van rental starting ₹7500/day. Professional drivers, best rates. Online booking available.`,
     keywords: cityData?.keywords?.join(', ') || `force urbania ${city}, urbania rental ${city}, tempo traveller ${city}, luxury van ${city}`,
     openGraph: {
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: `Rent luxury Force Urbania in ${cityName}. Best rates for 12, 15, 17 seater vehicles.`,
       type: 'website',
       locale: 'en_IN',
-      siteName: 'Urbania Hire India'
+      siteName: 'Urbania Hire in Jaisalmer'
     },
     twitter: {
       card: 'summary_large_image',

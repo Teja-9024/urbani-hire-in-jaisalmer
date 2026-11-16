@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Page Not Found | Urbania Hire India",
-    description: "The page you are looking for does not exist. Return to Urbania Hire India homepage for Force Urbania rental services.",
+    title: "Page Not Found | Urbania Hire in Jaisalmer",
+    description: "The page you are looking for does not exist. Return to Urbania Hire in Jaisalmer homepage for Force Urbania rental services.",
     robots: {
         index: false,
         follow: true,

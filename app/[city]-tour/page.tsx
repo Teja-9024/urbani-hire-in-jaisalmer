@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const cityName = cityDisplayNames[city] || city;
 
   return {
-    title: `${cityName} Tour Package | Rajasthan Tours with Force Urbania | Urbania Hire India`,
+    title: `${cityName} Tour Package | Rajasthan Tours with Force Urbania | Urbania Hire in Jaisalmer`,
     description: `Explore ${cityName} with premium Force Urbania guided tour packages. Book 12, 15, 17 seater Urbania for ${cityName} sightseeing, heritage tours, and group travel. Best rates, professional drivers, 24/7 support.`,
     keywords: `${cityName} tour package, ${cityName} sightseeing urbania, force urbania ${cityName} tour, urbania hire ${cityName}, rajasthan tour urbania`,
     alternates: {
@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: `Book Force Urbania for ${cityName} tours. Best rates for group sightseeing.`,
       type: 'website',
       locale: 'en_IN',
-      siteName: 'Urbania Hire India',
+      siteName: 'Urbania Hire in Jaisalmer',
     },
   };
 }

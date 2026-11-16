@@ -40,7 +40,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative h-[85vh] min-h-[600px] flex flex-col justify-center pt-20" aria-label="Hero Section - Force Urbania Hire India">
+    <section id="home" className="relative h-[85vh] min-h-[600px] flex flex-col justify-center pt-20" aria-label="Hero Section - Force Urbania Hire in Jaisalmer">
       {/* Background Image - Layered Approach */}
       <div className="absolute inset-0 z-0">
         {/* Base Layer - Blurred background to fill gaps */}
@@ -90,13 +90,13 @@ const Hero = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white mb-6 leading-tight drop-shadow-lg"
             >
               <span className="text-[#F9B250]">Urbania</span> Hire <br />
-              in India
+              in Jaisalmer
             </motion.h1>
             <motion.p
               variants={slideInRight}
               className="text-lg md:text-xl text-gray-100 mb-8 max-w-lg mx-auto lg:mx-0 font-light leading-relaxed drop-shadow-md"
             >
-              Book premium <strong>Force Urbania 12, 15, 17 seater</strong> for weddings, corporate events, pilgrimages and family tours across Rajasthan &amp; India. Best rates guaranteed.
+              Book premium <strong>Force Urbania 12, 15, 17 seater</strong> for weddings, corporate events, pilgrimages and family tours in Jaisalmer &amp; across Rajasthan. Best rates guaranteed.
             </motion.p>
             <motion.div
               variants={slideInRight}
@@ -114,7 +114,7 @@ const Hero = () => {
                 size="lg"
                 onClick={() => window.location.href = 'tel:+918949304824'}
                 className="bg-[#E05912] hover:bg-[#C44D0F] text-white gap-2 text-base px-8 py-6 rounded-md font-bold shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1"
-                aria-label="Contact Urbania Hire India"
+                aria-label="Contact Urbania Hire in Jaisalmer"
               >
                 Contact Us
               </Button>

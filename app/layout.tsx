@@ -35,8 +35,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
     metadataBase: new URL('https://urbaniahireindia.com'),
     title: {
-        default: "Urbania Hire India | Force Urbania 12 15 17 Seater Rental",
-        template: "%s | Urbania Hire India"
+        default: "Urbania Hire in Jaisalmer | Force Urbania 12 15 17 Seater Rental",
+        template: "%s | Urbania Hire in Jaisalmer"
     },
     description: "Urbania hire in India — Book Force Urbania 12, 15, 17 seater rental across India. Premium Urbania hire in Jaipur, Delhi, Udaipur, Jodhpur, Jaisalmer, Agra, Bikaner. Best rates for Rajasthan tours, weddings, corporate events. 24/7 support.",
     keywords: [
@@ -82,9 +82,9 @@ export const metadata: Metadata = {
         "delhi to agra force urbania",
         "mini bus rental India"
     ],
-    authors: [{ name: "Urbania Hire India" }],
-    creator: "Urbania Hire India",
-    publisher: "Urbania Hire India",
+    authors: [{ name: "Urbania Hire in Jaisalmer" }],
+    creator: "Urbania Hire in Jaisalmer",
+    publisher: "Urbania Hire in Jaisalmer",
     formatDetection: {
         email: true,
         address: true,
@@ -106,7 +106,7 @@ export const metadata: Metadata = {
         type: 'website',
         locale: 'en_IN',
         url: 'https://urbaniahireindia.com',
-        siteName: 'Urbania Hire India',
+        siteName: 'Urbania Hire in Jaisalmer',
         title: 'Urbania Hire in India | Force Urbania Rental | 12 15 17 Seater',
         description: 'Urbania hire in India — Book Force Urbania 12, 15, 17 seater rental across Rajasthan & Delhi. Best rates for tours, weddings & corporate events.',
         images: [
@@ -150,7 +150,7 @@ const jsonLd = {
         {
             '@type': 'LocalBusiness',
             '@id': 'https://urbaniahireindia.com/#business',
-            name: 'Urbania Hire India',
+            name: 'Urbania Hire in Jaisalmer',
             image: 'https://urbaniahireindia.com/og-image.jpg',
             description: 'Premium Force Urbania 12, 15, 17 seater luxury van rental services across Rajasthan for weddings, tours, and corporate events. Serving Jaipur, Udaipur, Jodhpur, Jaisalmer, Mount Abu, Bikaner.',
             url: 'https://urbaniahireindia.com',
@@ -214,7 +214,7 @@ const jsonLd = {
             '@type': 'WebSite',
             '@id': 'https://urbaniahireindia.com/#website',
             url: 'https://urbaniahireindia.com',
-            name: 'Urbania Hire India',
+            name: 'Urbania Hire in Jaisalmer',
             description: 'Urbania hire in India - Premium Force Urbania rental services across Rajasthan & Delhi. 12, 15, 17 seater luxury van hire.',
             publisher: {
                 '@id': 'https://urbaniahireindia.com/#business',
@@ -296,7 +296,7 @@ const jsonLd = {
                             image: 'https://urbaniahireindia.com/vehicles/12-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
-                                name: 'Urbania Hire India',
+                                name: 'Urbania Hire in Jaisalmer',
                             },
                             areaServed: {
                                 '@type': 'Country',
@@ -318,7 +318,7 @@ const jsonLd = {
                             image: 'https://urbaniahireindia.com/vehicles/15-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
-                                name: 'Urbania Hire India',
+                                name: 'Urbania Hire in Jaisalmer',
                             },
                             areaServed: {
                                 '@type': 'Country',
@@ -340,7 +340,7 @@ const jsonLd = {
                             image: 'https://urbaniahireindia.com/vehicles/17-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
-                                name: 'Urbania Hire India',
+                                name: 'Urbania Hire in Jaisalmer',
                             },
                             areaServed: {
                                 '@type': 'Country',
@@ -362,7 +362,7 @@ const jsonLd = {
                             image: 'https://urbaniahireindia.com/vehicles/innova/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
-                                name: 'Urbania Hire India',
+                                name: 'Urbania Hire in Jaisalmer',
                             },
                             areaServed: {
                                 '@type': 'Country',

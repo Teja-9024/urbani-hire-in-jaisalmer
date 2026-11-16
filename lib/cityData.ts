@@ -48,7 +48,7 @@ export const citiesData: CityData[] = [
     highlights: ["India Gate", "Red Fort", "Qutub Minar", "Lotus Temple"],
     famousFor: "Historical monuments, vibrant markets, and rich cultural heritage",
     pricing: basePricing,
-    metaTitle: 'Force Urbania Rental Delhi NCR | 12 15 17 Seater Hire | Urbania Hire India',
+    metaTitle: 'Force Urbania Rental Delhi NCR | 12 15 17 Seater Hire | Urbania Hire in Jaisalmer',
     metaDescription: 'Book Force Urbania in Delhi NCR - 12, 15, 17 seater luxury van rental starting ₹8000/day. Best rates for Manali, Shimla, Agra tours. Professional drivers. Online booking.',
     keywords: [
       'force urbania rental delhi',
@@ -87,7 +87,7 @@ export const citiesData: CityData[] = [
       { vehicle: "15 Seater Urbania", seating: "15+1", perDay: "8,500", perKm: "22", driverCharge: "500" },
       { vehicle: "17 Seater Urbania", seating: "17+1", perDay: "9,500", perKm: "24", driverCharge: "500" },
     ],
-    metaTitle: 'Force Urbania Rental Jaipur | 12 15 17 Seater Pink City Tour | Urbania Hire India',
+    metaTitle: 'Force Urbania Rental Jaipur | 12 15 17 Seater Pink City Tour | Urbania Hire in Jaisalmer',
     metaDescription: 'Rent Force Urbania in Jaipur from ₹7500/day - 12, 15, 17 seater for Rajasthan tours. Hawa Mahal, Amber Fort sightseeing. Best rates, professional drivers.',
     keywords: [
       'force urbania rental jaipur',

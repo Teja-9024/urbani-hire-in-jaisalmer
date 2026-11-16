@@ -215,7 +215,7 @@ const Footer = () => {
               <Link href="/" className="inline-block mb-5">
                 <img
                   src={URLOGO}
-                  alt="Urbania Hire India"
+                  alt="Urbania Hire in Jaisalmer"
                   className="h-auto w-auto object-contain"
                 />
               </Link>
@@ -251,7 +251,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <p className="text-[10px] text-gray-500 uppercase tracking-wider">Our Location</p>
-                    <p className="text-white font-bold text-sm">Bikaner, Rajasthan 334001</p>
+                    <p className="text-white font-bold text-sm">Jaisalmer, Rajasthan 345001</p>
                   </div>
                 </div>
               </div>
@@ -369,7 +369,7 @@ const Footer = () => {
           {/* Bottom Bar */}
           <div className="flex flex-col items-center justify-center gap-2 pt-3 pb-1">
             <p className="text-xs md:text-sm text-gray-500 font-medium text-center">
-              © {currentYear} <span className="text-white font-semibold">Urbania Hire India</span>. All Rights Reserved.
+              © {currentYear} <span className="text-white font-semibold">Urbania Hire in Jaisalmer</span>. All Rights Reserved.
             </p>
             <p className="text-xs md:text-sm text-gray-500 font-medium text-center">
               Design and Develop by{" "}

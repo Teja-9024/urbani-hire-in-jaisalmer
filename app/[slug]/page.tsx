@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!parsed || !parsed.isValid) {
     return {
-      title: 'Page Not Found | Urbania Hire India',
+      title: 'Page Not Found | Urbania Hire in Jaisalmer',
       description: 'The page you are looking for could not be found.',
     };
   }
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         description,
         url: `/${vehicle.slug}`,
         type: 'website',
-        siteName: 'Urbania Hire India',
+        siteName: 'Urbania Hire in Jaisalmer',
         locale: 'en_IN',
         images: vehicle.image ? [
           {
@@ -100,10 +100,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   // Prefer the hand-written, keyword-researched SEO content per city when available
   // (see lib/cityData.ts) - that data is Force Urbania specific, so only use it
-  // for that service, and strip any hardcoded "Urbania Hire India" suffix since
+  // for that service, and strip any hardcoded "Urbania Hire in Jaisalmer" suffix since
   // the root layout's title template already appends it.
   const cityInfo = service.id === 'force-urbania' ? getCityById(city.slug) : null;
-  const cleanTitle = cityInfo?.metaTitle?.replace(/\s*\|\s*Urbania Hire India\s*$/i, '');
+  const cleanTitle = cityInfo?.metaTitle?.replace(/\s*\|\s*Urbania Hire in Jaisalmer\s*$/i, '');
 
   const title = cleanTitle || `${service.name} in ${city.name} | Best Rates`;
   const description =
@@ -136,7 +136,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       url: `/${slug}`,
       type: 'website',
-      siteName: 'Urbania Hire India',
+      siteName: 'Urbania Hire in Jaisalmer',
       locale: 'en_IN',
       images: city.images.hero ? [
         {
@@ -227,7 +227,7 @@ export default async function ServiceCityPage({ params }: Props) {
       image: vehicle.gallery,
       brand: {
         '@type': 'Organization',
-        name: 'Urbania Hire India',
+        name: 'Urbania Hire in Jaisalmer',
       },
       offers: {
         '@type': 'Offer',
@@ -268,7 +268,7 @@ export default async function ServiceCityPage({ params }: Props) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: `Urbania Hire India - ${service.name} in ${city.name}`,
+    name: `Urbania Hire in Jaisalmer - ${service.name} in ${city.name}`,
     description: `${service.description} in ${city.name}`,
     address: {
       '@type': 'PostalAddress',

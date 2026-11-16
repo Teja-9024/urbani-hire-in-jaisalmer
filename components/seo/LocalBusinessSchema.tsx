@@ -23,7 +23,7 @@ export default function LocalBusinessSchema({
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": url,
-    "name": `Urbania Hire India - ${serviceName}`,
+    "name": `Urbania Hire in Jaisalmer - ${serviceName}`,
     "description": description,
     "url": url,
     "telephone": "+91-89493-04824",
@@ -65,7 +65,7 @@ export default function LocalBusinessSchema({
                 "description": "Luxury 12 seater Force Urbania for group travel",
                 "provider": {
                   "@type": "Organization",
-                  "name": "Urbania Hire India"
+                  "name": "Urbania Hire in Jaisalmer"
                 },
                 "areaServed": {
                   "@type": "Country",
@@ -86,7 +86,7 @@ export default function LocalBusinessSchema({
                 "description": "Spacious 15 seater Force Urbania for tours",
                 "provider": {
                   "@type": "Organization",
-                  "name": "Urbania Hire India"
+                  "name": "Urbania Hire in Jaisalmer"
                 },
                 "areaServed": {
                   "@type": "Country",
@@ -107,7 +107,7 @@ export default function LocalBusinessSchema({
                 "description": "Large 17 seater Force Urbania for groups",
                 "provider": {
                   "@type": "Organization",
-                  "name": "Urbania Hire India"
+                  "name": "Urbania Hire in Jaisalmer"
                 },
                 "areaServed": {
                   "@type": "Country",

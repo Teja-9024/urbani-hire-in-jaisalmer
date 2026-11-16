@@ -55,7 +55,7 @@ const BenefitsSection = () => {
                         WHY CHOOSE US
                     </span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-foreground mb-4">
-                        Benefits of Booking with Urbania Hire India
+                        Benefits of Booking with Urbania Hire in Jaisalmer
                     </h2>
                     <div className="w-24 h-1 bg-[#FF8C00] rounded-full mx-auto mb-8"></div>
                     <p className="text-lg text-muted-foreground">

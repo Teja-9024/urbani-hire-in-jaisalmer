@@ -7,7 +7,7 @@ import { COMPANY_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Travel Blog | Force Urbania Rental Tips & India Tour Guides",
   description:
-    "Expert travel guides, vehicle comparisons, road trip tips, and group travel advice for India. Plan your next trip with Urbania Hire India blog.",
+    "Expert travel guides, vehicle comparisons, road trip tips, and group travel advice for India. Plan your next trip with Urbania Hire in Jaisalmer blog.",
   keywords: [
     "travel blog india",
     "force urbania blog",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     canonical: "https://urbaniahireindia.com/blog",
   },
   openGraph: {
-    title: "Travel Blog | Urbania Hire India",
+    title: "Travel Blog | Urbania Hire in Jaisalmer",
     description:
       "Expert travel guides, vehicle comparisons, and group travel tips for India.",
     url: "https://urbaniahireindia.com/blog",

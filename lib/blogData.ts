@@ -37,12 +37,12 @@ export const blogPosts: BlogPost[] = [
   // 0. TTF 2026 — event coverage (featured, kept at top of the list)
   {
     slug: "urbania-hire-india-at-ttf-2026-travel-tourism-fair",
-    title: "Urbania Hire India at TTF 2026: Inside the Travel & Tourism Fair",
-    excerpt: "Urbania Hire India joined TTF 2026 to meet state tourism boards, tour operators, and travel partners from across the country. Here's what we saw and why it matters for your next trip.",
+    title: "Urbania Hire in Jaisalmer at TTF 2026: Inside the Travel & Tourism Fair",
+    excerpt: "Urbania Hire in Jaisalmer joined TTF 2026 to meet state tourism boards, tour operators, and travel partners from across the country. Here's what we saw and why it matters for your next trip.",
     content: `
 ## TTF 2026 — A Front-Row Seat to India's Travel Industry
 
-The Travel & Tourism Fair (TTF) is one of India's biggest B2B travel exhibitions, bringing together state tourism boards, tour operators, hoteliers, and transport providers under one roof. This year, the Urbania Hire India team travelled to TTF 2026 to represent our fleet and connect directly with the people shaping India's tourism landscape.
+The Travel & Tourism Fair (TTF) is one of India's biggest B2B travel exhibitions, bringing together state tourism boards, tour operators, hoteliers, and transport providers under one roof. This year, the Urbania Hire in Jaisalmer team travelled to TTF 2026 to represent our fleet and connect directly with the people shaping India's tourism landscape.
 
 ### Why We Attend TTF Every Year
 
@@ -70,12 +70,12 @@ We came back from TTF 2026 with a notebook full of ideas — and a renewed commi
     `,
     coverImage: "/images/blogs/1.jpg",
     category: "Industry News",
-    tags: ["TTF 2026", "Travel & Tourism Fair", "Industry Event", "Urbania Hire India"],
-    author: "Urbania Hire India",
+    tags: ["TTF 2026", "Travel & Tourism Fair", "Industry Event", "Urbania Hire in Jaisalmer"],
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-09-10",
     readTime: "6 min read",
-    metaTitle: "Urbania Hire India at TTF 2026 | Travel & Tourism Fair Highlights",
-    metaDescription: "Urbania Hire India's team at TTF 2026 — meeting J&K Tourism, Rajasthan Tourism, Sikkim Tourism and more. See what we learned for your next group trip.",
+    metaTitle: "Urbania Hire in Jaisalmer at TTF 2026 | Travel & Tourism Fair Highlights",
+    metaDescription: "Urbania Hire in Jaisalmer's team at TTF 2026 — meeting J&K Tourism, Rajasthan Tourism, Sikkim Tourism and more. See what we learned for your next group trip.",
     keywords: ["TTF 2026", "travel and tourism fair india", "urbania hire india news", "tourism industry event", "state tourism boards india"],
   },
 
@@ -110,12 +110,12 @@ We're grateful to everyone who stopped by to talk shop, share a coffee, and exch
     `,
     coverImage: "/images/blogs/2.jpg",
     category: "Industry News",
-    tags: ["TTF 2026", "Networking", "Travel Partnerships", "Urbania Hire India"],
-    author: "Urbania Hire India",
+    tags: ["TTF 2026", "Networking", "Travel Partnerships", "Urbania Hire in Jaisalmer"],
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-09-12",
     readTime: "5 min read",
-    metaTitle: "Our TTF 2026 Experience | Urbania Hire India Networking Recap",
-    metaDescription: "A behind-the-scenes look at Urbania Hire India's networking and partnership building at TTF 2026, the Travel & Tourism Fair.",
+    metaTitle: "Our TTF 2026 Experience | Urbania Hire in Jaisalmer Networking Recap",
+    metaDescription: "A behind-the-scenes look at Urbania Hire in Jaisalmer's networking and partnership building at TTF 2026, the Travel & Tourism Fair.",
     keywords: ["TTF 2026 experience", "travel industry networking india", "urbania hire india partnerships", "travel and tourism fair recap"],
   },
 
@@ -151,11 +151,11 @@ TTF 2026 reminded us that India's tourism map is always expanding — and stayin
     coverImage: "/images/blogs/3.jpg",
     category: "Industry News",
     tags: ["TTF 2026", "Sikkim Tourism", "Vohtrip", "Travel Partnerships"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-09-14",
     readTime: "6 min read",
-    metaTitle: "Sikkim Tourism at TTF 2026 | Urbania Hire India & Vohtrip",
-    metaDescription: "Urbania Hire India and partner Vohtrip explore Sikkim's group travel potential at the Sikkim Tourism pavilion, TTF 2026.",
+    metaTitle: "Sikkim Tourism at TTF 2026 | Urbania Hire in Jaisalmer & Vohtrip",
+    metaDescription: "Urbania Hire in Jaisalmer and partner Vohtrip explore Sikkim's group travel potential at the Sikkim Tourism pavilion, TTF 2026.",
     keywords: ["sikkim tourism", "TTF 2026 sikkim", "vohtrip travel agency", "sikkim group travel", "northeast india tourism"],
   },
 
@@ -212,18 +212,18 @@ Force Urbania costs 30-40% more, but the comfort, safety, and experience justify
 
 ### 5. Availability Across India
 
-Force Urbania rentals are available in major cities: **Jaipur, Delhi, Udaipur, Jodhpur, Jaisalmer, Bikaner, Agra, Mount Abu**, and more. Book with Urbania Hire India for the best rates and newest fleet.
+Force Urbania rentals are available in major cities: **Jaipur, Delhi, Udaipur, Jodhpur, Jaisalmer, Bikaner, Agra, Mount Abu**, and more. Book with Urbania Hire in Jaisalmer for the best rates and newest fleet.
 
 ### Final Verdict
 
 For anyone prioritizing comfort, safety, and a premium travel experience, the **Force Urbania is the clear winner**. The slightly higher cost pays for itself in passenger satisfaction and journey quality.
 
-> **Ready to book?** Contact Urbania Hire India at +91 89493 04824 for instant quotes.
+> **Ready to book?** Contact Urbania Hire in Jaisalmer at +91 89493 04824 for instant quotes.
     `,
     coverImage: "/images/destinations/jaipur.jpg",
     category: "Vehicle Guide",
     tags: ["Force Urbania", "Tempo Traveller", "Comparison", "Group Travel"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-01-15",
     readTime: "7 min read",
     metaTitle: "Force Urbania vs Tempo Traveller 2026 | Which Is Better?",
@@ -293,7 +293,7 @@ Rajasthan is India's most popular tourist state, and there's no better way to ex
     coverImage: "/images/destinations/mehrangarh-fort.jpg",
     category: "Rajasthan Tourism",
     tags: ["Rajasthan Tour", "Itinerary", "Jaipur", "Udaipur", "Jodhpur", "Jaisalmer"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-01-20",
     readTime: "10 min read",
     metaTitle: "Rajasthan Tour Guide 2026 | 7-Day Itinerary | Force Urbania",
@@ -358,7 +358,7 @@ Jaipur, Udaipur, Jodhpur, Jaisalmer, Delhi, Agra, Bikaner, Mount Abu, Pushkar �
     coverImage: "/images/destinations/udaipur-city-palace.jpg",
     category: "Wedding Transport",
     tags: ["Wedding Transport", "Guest Logistics", "Force Urbania", "Wedding Planning"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-01-25",
     readTime: "8 min read",
     metaTitle: "Wedding Guest Transportation India 2026 | Planning Guide",
@@ -423,7 +423,7 @@ The Delhi-Manali highway is one of India's most popular road trips. Travelling i
     coverImage: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     category: "Road Trip",
     tags: ["Delhi to Manali", "Road Trip", "Force Urbania", "Himachal Pradesh"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-01",
     readTime: "9 min read",
     metaTitle: "Delhi to Manali by Force Urbania 2026 | Route, Cost, Tips",
@@ -483,7 +483,7 @@ Delhi NCR, Jaipur, Udaipur, Jodhpur, Agra, Bikaner, Jaisalmer, Mount Abu, Pushka
     coverImage: "/images/destinations/jaipur.jpg",
     category: "Corporate Travel",
     tags: ["Corporate Transport", "Business Travel", "Event Logistics", "Force Urbania"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-05",
     readTime: "6 min read",
     metaTitle: "Corporate Event Transport India | Force Urbania Business Travel",
@@ -542,7 +542,7 @@ The 12 seater Force Urbania is the most versatile option in the Urbania lineup. 
     coverImage: "/images/destinations/jaipur.jpg",
     category: "Vehicle Guide",
     tags: ["12 Seater Urbania", "Force Urbania", "Rental Guide", "Pricing"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-10",
     readTime: "6 min read",
     metaTitle: "12 Seater Force Urbania Rental Guide | Price, Features, Booking",
@@ -596,7 +596,7 @@ Evening: Birla Temple → Chokhi Dhani (dinner)
     coverImage: "/images/destinations/jaipur.jpg",
     category: "Rajasthan Tourism",
     tags: ["Jaipur", "Sightseeing", "Pink City", "Rajasthan"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-12",
     readTime: "8 min read",
     metaTitle: "Jaipur Sightseeing Guide 2026 | Top 15 Places | Force Urbania",
@@ -661,7 +661,7 @@ The Delhi–Agra–Jaipur Golden Triangle is India's most popular tourist circui
     coverImage: "https://images.unsplash.com/photo-1564507592333-c60657eea523?crop=focalpoint&fp-x=0.5&fp-y=0.45&fp-z=1.15&fit=crop&w=1200&h=1500&q=85",
     category: "Road Trip",
     tags: ["Golden Triangle", "Delhi", "Agra", "Jaipur", "Taj Mahal"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-15",
     readTime: "8 min read",
     metaTitle: "Golden Triangle Tour 2026 | Delhi Agra Jaipur by Force Urbania",
@@ -717,7 +717,7 @@ Sam Sand Dunes are 42 km from Jaisalmer city. A Force Urbania takes you right to
     coverImage: "/images/destinations/jaisalmer-fort.jpg",
     category: "Rajasthan Tourism",
     tags: ["Jaisalmer", "Desert Safari", "Sam Sand Dunes", "Camel Ride"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-18",
     readTime: "7 min read",
     metaTitle: "Jaisalmer Desert Safari Guide 2026 | Sam Sand Dunes",
@@ -774,7 +774,7 @@ India's pilgrimages traditionally involve challenging journeys. Modern travel wi
     coverImage: "/images/destinations/pushkar.jpg",
     category: "Group Travel",
     tags: ["Pilgrimage", "Temple Tour", "Pushkar", "Ajmer", "Nathdwara"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-20",
     readTime: "7 min read",
     metaTitle: "Group Pilgrimage Travel India | Temple Tour Guide 2026",
@@ -834,7 +834,7 @@ Udaipur is India's #1 destination wedding city. With its lakeside palaces and ro
     coverImage: "/images/destinations/udaipur-city-palace.jpg",
     category: "Wedding Transport",
     tags: ["Udaipur Wedding", "Destination Wedding", "Wedding Logistics"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-22",
     readTime: "8 min read",
     metaTitle: "Udaipur Destination Wedding Transport Guide 2026",
@@ -891,7 +891,7 @@ The 17 seater Force Urbania is the largest in the lineup, ideal for big families
     coverImage: "/images/destinations/mehrangarh-fort.jpg",
     category: "Vehicle Guide",
     tags: ["17 Seater", "Force Urbania", "Large Group", "Rental Guide"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-02-25",
     readTime: "6 min read",
     metaTitle: "17 Seater Force Urbania Rental India | Price & Guide 2026",
@@ -943,7 +943,7 @@ Delhi NCR, Jaipur, Udaipur, Jodhpur, Agra, Jaisalmer, Bikaner, Mount Abu, Pushka
     coverImage: "/images/destinations/jaipur.jpg",
     category: "Vehicle Guide",
     tags: ["Innova Crysta", "Car Rental", "Premium", "Small Group"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-01",
     readTime: "5 min read",
     metaTitle: "Innova Crysta Rental India 2026 | Premium Car Hire",
@@ -1000,7 +1000,7 @@ A Force Urbania is ideal for Jodhpur because:
     coverImage: "/images/destinations/mehrangarh-fort.jpg",
     category: "Rajasthan Tourism",
     tags: ["Jodhpur", "Blue City", "Mehrangarh Fort", "Rajasthan Tour"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-05",
     readTime: "7 min read",
     metaTitle: "Jodhpur Blue City Guide 2026 | Must-Visit Places",
@@ -1058,7 +1058,7 @@ The 15 seater is our most popular model — large enough for sizeable groups yet
     coverImage: "/images/destinations/udaipur-city-palace.jpg",
     category: "Vehicle Guide",
     tags: ["15 Seater", "Force Urbania", "Rental Guide", "Group Travel"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-08",
     readTime: "5 min read",
     metaTitle: "15 Seater Force Urbania Rental Guide | Price & Features",
@@ -1097,7 +1097,7 @@ Indian highways are improving, but safety awareness remains crucial. Here's ever
 
 ### Why Professional Drivers Matter
 
-Professional drivers from Urbania Hire India:
+Professional drivers from Urbania Hire in Jaisalmer:
 - Hold commercial licenses with clean records
 - Know routes, including detours and shortcuts
 - Trained in defensive driving
@@ -1123,12 +1123,12 @@ Keep these in the vehicle:
 - Basic medicines
 - Snacks (glucose, biscuits)
 
-> **Travel safe with Urbania Hire India:** All vehicles fully equipped. Book at +91 89493 04824.
+> **Travel safe with Urbania Hire in Jaisalmer:** All vehicles fully equipped. Book at +91 89493 04824.
     `,
     coverImage: "/images/destinations/jaisalmer-fort.jpg",
     category: "Tips & Advice",
     tags: ["Road Safety", "Travel Tips", "Group Travel", "India"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-10",
     readTime: "6 min read",
     metaTitle: "Road Trip Safety Tips India 2026 | Group Travel Guide",
@@ -1198,7 +1198,7 @@ Delhi, India's vibrant capital, offers a stunning mix of ancient history and mod
     coverImage: "https://images.unsplash.com/photo-1587474260584-136574528ed5?crop=focalpoint&fp-x=0.5&fp-y=0.45&fp-z=1.15&fit=crop&w=1200&h=1500&q=85",
     category: "Travel Guide",
     tags: ["Delhi", "Sightseeing", "Capital Tour", "Group Travel"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-12",
     readTime: "9 min read",
     metaTitle: "Delhi Sightseeing Tour 2026 | Top 20 Places by Force Urbania",
@@ -1250,7 +1250,7 @@ Most operators offer tiered discounts:
 *More passengers = lower per-person cost!*
 
 **6. Book Direct — Skip Aggregators**
-Booking directly with Urbania Hire India saves 15-25% compared to travel aggregator platforms.
+Booking directly with Urbania Hire in Jaisalmer saves 15-25% compared to travel aggregator platforms.
 
 ### Real Example: 7-Day Rajasthan Trip
 
@@ -1263,7 +1263,7 @@ Booking directly with Urbania Hire India saves 15-25% compared to travel aggrega
     coverImage: "/images/destinations/jaisalmer-fort.jpg",
     category: "Tips & Advice",
     tags: ["Budget Travel", "Money Saving", "Group Travel", "India"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-15",
     readTime: "6 min read",
     metaTitle: "Budget Group Travel Tips India | Save 40% on Road Trips",
@@ -1323,7 +1323,7 @@ Agra is synonymous with the Taj Mahal, but this Mughal-era city offers much more
     coverImage: "https://images.unsplash.com/photo-1564507592333-c60657eea523?crop=focalpoint&fp-x=0.5&fp-y=0.45&fp-z=1.15&fit=crop&w=1200&h=1500&q=85",
     category: "Travel Guide",
     tags: ["Agra", "Taj Mahal", "Day Trip", "Delhi-Agra"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-18",
     readTime: "7 min read",
     metaTitle: "Agra Tour Guide 2026 | Taj Mahal Visit by Force Urbania",
@@ -1387,7 +1387,7 @@ Mount Abu is Rajasthan's only hill station, offering a refreshing escape from th
     coverImage: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
     category: "Rajasthan Tourism",
     tags: ["Mount Abu", "Hill Station", "Dilwara Temples", "Rajasthan"],
-    author: "Urbania Hire India",
+    author: "Urbania Hire in Jaisalmer",
     publishedAt: "2026-03-20",
     readTime: "7 min read",
     metaTitle: "Mount Abu Hill Station Guide 2026 | Rajasthan Travel",

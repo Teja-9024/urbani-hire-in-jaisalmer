@@ -65,7 +65,7 @@ const Navbar = () => {
             <Link href="/" className="flex items-center gap-2 group">
               <img
                 src="/images/urlogo.png"
-                alt="Urbania Hire India Logo"
+                alt="Urbania Hire in Jaisalmer Logo"
                 className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </Link>

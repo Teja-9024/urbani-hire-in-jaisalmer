@@ -33,7 +33,7 @@ const testimonials = [
     name: "Sunita Verma",
     location: "Jaisalmer",
     rating: 5,
-    text: "Used their 17 Seater Urbania for my daughter's wedding guests transportation from Jaisalmer to Jodhpur. Impeccable service, on-time pickups, and the vehicles were spotless. Thank you Urbania Hire India!",
+    text: "Used their 17 Seater Urbania for my daughter's wedding guests transportation from Jaisalmer to Jodhpur. Impeccable service, on-time pickups, and the vehicles were spotless. Thank you Urbania Hire in Jaisalmer!",
     trip: "Wedding Transport",
   },
   {
