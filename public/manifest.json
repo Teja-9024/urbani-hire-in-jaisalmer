@@ -1,0 +1,28 @@
+{
+    "name": "Urbania Hire India",
+    "short_name": "Urbania Hire",
+    "description": "Premium Force Urbania 12/15/17 seater rental in Rajasthan - Jaipur, Udaipur, Jodhpur, Jaisalmer, Mount Abu, Bikaner",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#E05912",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        }
+    ]
+}
