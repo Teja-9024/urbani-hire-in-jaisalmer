@@ -99,7 +99,7 @@ const Destinations = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   return (
-    <section id="destinations" className="py-8 md:py-12 bg-[#FDFCF8]">
+    <section id="destinations" className="py-8 md:py-12 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 md:mb-12 px-4">

@@ -4,8 +4,10 @@ import Hero from "@/components/Hero";
 import StatsSection from "@/components/StatsSection";
 import Fleet from "@/components/Fleet";
 import Destinations from "@/components/Destinations";
+import JaisalmerSightseeing from "@/components/JaisalmerSightseeing";
+import AirportTransfer from "@/components/AirportTransfer";
+import OutstationRoutes from "@/components/OutstationRoutes";
 import CTABanner from "@/components/CTABanner";
-import WhyChooseUs from "@/components/WhyChooseUs";
 import BenefitsSection from "@/components/BenefitsSection";
 import Testimonials from "@/components/Testimonials";
 import FAQSection from "@/components/FAQSection";
@@ -25,14 +27,14 @@ export default function HomeClient() {
           <section aria-label="Popular Destinations">
             <Destinations />
           </section>
+          <JaisalmerSightseeing />
+          <AirportTransfer />
+          <OutstationRoutes />
           <section aria-label="Service Locations">
             <ServiceLocations />
           </section>
           <CTABanner />
-          <section aria-label="Why Choose Us">
-            <WhyChooseUs />
-          </section>
-          <section aria-label="Benefits">
+          <section id="about" aria-label="Benefits">
             <BenefitsSection />
           </section>
           <section aria-label="Customer Testimonials">

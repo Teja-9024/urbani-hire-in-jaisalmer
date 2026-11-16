@@ -90,7 +90,7 @@ const FAQSection = () => {
     return (
         <>
             <FAQSchema faqs={faqs} />
-            <section className="section-padding pt-12">
+            <section id="faq" className="section-padding pt-12">
             <div className="container-custom">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">

@@ -3,7 +3,7 @@ import { CONTACT_INFO } from "@/lib/constants";
 
 const TopBar = () => {
     return (
-        <div className="hidden md:block bg-[#fbf8ef] text-foreground py-2 border-b border-border/40">
+        <div className="hidden md:block bg-[#030712] text-gray-200 py-2.5 border-b border-white/10">
             <div className="container-custom px-4 flex justify-between items-center text-xs font-medium tracking-wide">
                 {/* Left Side: Call & WhatsApp */}
                 <div className="flex items-center gap-6">
@@ -32,7 +32,7 @@ const TopBar = () => {
                         <Mail className="w-3.5 h-3.5 text-primary" />
                         <span>{CONTACT_INFO.email}</span>
                     </a>
-                    <div className="flex items-center gap-3 pl-2 border-l border-border/50">
+                    <div className="flex items-center gap-3 pl-2 border-l border-white/20">
                         <a
                             href={CONTACT_INFO.instagram}
                             target="_blank"

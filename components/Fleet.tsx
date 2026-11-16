@@ -5,24 +5,23 @@ import VehicleCard from "@/components/ui/VehicleCard";
 
 const Fleet = () => {
   return (
-    <section id="fleet" className="py-8 md:py-12 bg-gray-50/50">
-      <div className="container-custom px-4 md:px-6">
+    <section id="fleet" className="py-8 md:py-12 bg-[#FAF9F5]">
+      <div className="max-w-[1360px] mx-auto px-4 md:px-6">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
-          <span className="inline-block px-5 py-2 text-[#E05912] text-sm font-bold uppercase tracking-wider mb-3">
-            Luxury Rentals
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-14 font-ubuntu">
+          <span className="inline-block px-5 py-2 rounded-full bg-[#FBEBD7] border border-[#EBCB9F] text-[#B8500F] text-xs font-bold uppercase tracking-wide mb-5">
+            Direct Owner Fleet in Jaisalmer
           </span>
-          <h2 className="text-2xl md:text-4xl font-display font-bold text-gray-900 mb-4">
-            Force Urbania &amp; Luxury Vehicle Fleet
+          <h2 className="text-3xl md:text-[44px] font-bold text-[#111827] leading-tight mb-5">
+            Choose Your <span className="text-[#DD7A0B]">Force Urbania On Rent In Jaisalmer</span>
           </h2>
-          <div className="w-24 h-1 bg-[#FF8C00] rounded-full mx-auto mb-6 md:mb-8"></div>
-          <p className="text-sm md:text-lg text-gray-600 font-light leading-relaxed">
-            Choose from our exclusive collection of Force Urbania 12, 15, 17 seater vans and luxury vehicles. Available for hire across India.
+          <p className="text-sm md:text-base text-gray-600 leading-7 max-w-2xl mx-auto">
+            Whether you need a luxury van for Jaisalmer local sightseeing, wedding guest mobility, or an outstation holiday to Jodhpur and Bikaner, we have the exact seating model ready at fixed transparent rates.
           </p>
         </div>
 
         {/* Vehicle Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 mb-10 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 mb-10 md:mb-16">
           {vehicles.map((vehicle, index) => (
             <VehicleCard
               key={vehicle.id}

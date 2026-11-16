@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Rubik, Playfair_Display } from "next/font/google";
+import { Rubik, Playfair_Display, Ubuntu } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { Providers } from "./providers";
@@ -16,6 +16,13 @@ const rubik = Rubik({
     variable: '--font-rubik',
     display: 'swap',
     weight: ['300', '400', '500', '600', '700'],
+});
+
+const ubuntu = Ubuntu({
+    subsets: ['latin'],
+    variable: '--font-ubuntu',
+    display: 'swap',
+    weight: ['400', '500', '700'],
 });
 
 const playfair = Playfair_Display({
@@ -506,7 +513,7 @@ export default function RootLayout({
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                 />
             </head>
-            <body className={`${rubik.variable} ${playfair.variable} font-sans`} suppressHydrationWarning>
+            <body className={`${rubik.variable} ${playfair.variable} ${ubuntu.variable} font-sans`} suppressHydrationWarning>
                 {/* Google Analytics */}
                 <Script
                     src="https://www.googletagmanager.com/gtag/js?id=G-21PM1QRVHD"

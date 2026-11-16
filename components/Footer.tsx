@@ -1,6 +1,6 @@
 "use client";
 
-import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Youtube, Bus, Car, ChevronRight, ArrowRight, Send, Heart, Globe, Shield, Clock, Headphones, Sparkles, Award } from "lucide-react";
+import { Instagram, Facebook, MessageCircle } from "lucide-react";
 const URLOGO = "/images/footerurlogo.png";
 import Link from "next/link";
 import { CONTACT_INFO } from "@/lib/constants";
@@ -8,54 +8,41 @@ import { CONTACT_INFO } from "@/lib/constants";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
-  const quickLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/#about" },
-    { name: "Our Vehicles", href: "/#fleet" },
-    { name: "Destinations", href: "/#destinations" },
-    { name: "Blog", href: "/blog" },
-    { name: "Contact Us", href: "/#contact" },
-  ];
-
-  const forceUrbaniaServices = [
-    { name: "Force Urbania Jaipur", href: "/force-urbania-in-jaipur" },
-    { name: "Force Urbania Udaipur", href: "/force-urbania-in-udaipur" },
-    { name: "Force Urbania Jodhpur", href: "/force-urbania-in-jodhpur" },
-    { name: "Force Urbania Jaisalmer", href: "/force-urbania-in-jaisalmer" },
-    { name: "Force Urbania Mount Abu", href: "/force-urbania-in-mount-abu" },
-    { name: "Force Urbania Bikaner", href: "/force-urbania-in-bikaner" },
-    { name: "Force Urbania Delhi", href: "/force-urbania-in-delhi" },
-    { name: "Force Urbania Agra", href: "/force-urbania-in-agra" },
-    { name: "Tempo Traveller Jaipur", href: "/tempo-traveller-in-jaipur" },
-    { name: "Tempo Traveller Udaipur", href: "/tempo-traveller-in-udaipur" },
-  ];
-
-  const touristVehicles = [
+  const services = [
+    { name: "Force Urbania", href: "/force-urbania-in-jaisalmer" },
+    { name: "Tempo Traveller", href: "/tempo-traveller-in-jaisalmer" },
+    { name: "Taxi Service", href: "/taxi-service-in-jaisalmer" },
+    { name: "Mini Bus Service", href: "/mini-bus-service-in-jaisalmer" },
+    { name: "Innova Crysta", href: "/vehicles/innova-crysta" },
     { name: "12 Seater Urbania", href: "/vehicles/12-seater-urbania" },
     { name: "15 Seater Urbania", href: "/vehicles/15-seater-urbania" },
     { name: "17 Seater Urbania", href: "/vehicles/17-seater-urbania" },
-    { name: "Innova Crysta Rental", href: "/vehicles/innova-crysta" },
-    { name: "Mini Bus Jaipur", href: "/mini-bus-service-in-jaipur" },
-    { name: "Mini Bus Udaipur", href: "/mini-bus-service-in-udaipur" },
-    { name: "Taxi Service Jaipur", href: "/taxi-service-in-jaipur" },
-    { name: "Taxi Service Udaipur", href: "/taxi-service-in-udaipur" },
   ];
 
-  const famousTours = [
-    { name: "Jaipur City Tour", href: "/jaipur-tour" },
-    { name: "Udaipur Lake City Tour", href: "/udaipur-tour" },
-    { name: "Jodhpur Blue City Tour", href: "/jodhpur-tour" },
-    { name: "Jaisalmer Desert Safari", href: "/jaisalmer-tour" },
-    { name: "Mount Abu Hill Station", href: "/mount-abu-tour" },
-    { name: "Bikaner Camel Safari", href: "/bikaner-tour" },
+  const tours = [
+    { name: "Jaipur Tour", href: "/jaipur-tour" },
+    { name: "Udaipur Tour", href: "/udaipur-tour" },
+    { name: "Mount Abu Tour", href: "/mount-abu-tour" },
+    { name: "Jodhpur Tour", href: "/jodhpur-tour" },
+    { name: "Jaisalmer Tour", href: "/jaisalmer-tour" },
+    { name: "Bikaner Tour", href: "/bikaner-tour" },
+    { name: "Delhi Tour", href: "/delhi-tour" },
+    { name: "Agra Tour", href: "/agra-tour" },
+    { name: "Pushkar Tour", href: "/pushkar-tour" },
   ];
 
-  const urbaniaFleet = [
-    { name: "12 Seater Urbania", slug: "12-seater-urbania" },
-    { name: "15 Seater Urbania", slug: "15-seater-urbania" },
-    { name: "17 Seater Urbania", slug: "17-seater-urbania" },
-    { name: "Toyota Innova", slug: "innova" },
+  const bottomLinks = [
+    { name: "Home", href: "/" },
+    { name: "About Us", href: "/#about" },
+    { name: "Pricing", href: "/#fleet" },
+    { name: "FAQ", href: "/#faq" },
+    { name: "Blog", href: "/blog" },
+    { name: "Contact", href: "/#contact" },
   ];
+
+  const headingCls = "text-white font-bold text-base uppercase tracking-wide pb-3 mb-5 border-b border-[#D9992B]";
+  const linkCls = "text-sm uppercase text-gray-200 hover:text-[#F9B250] transition-colors";
+  const socialCls = "w-12 h-12 rounded-full border border-gray-400 flex items-center justify-center text-white hover:bg-[#E05912] hover:border-[#E05912] transition-colors";
 
   return (
     <>
@@ -107,285 +94,93 @@ const Footer = () => {
       </div>
 
       {/* Footer with bottom padding to account for fixed road section */}
-      <footer id="contact" className="bg-gradient-to-b from-[#1a1a1a] via-[#151515] to-[#0a0a0a] text-gray-300 pb-10 md:pb-12">
-        {/* Features Bar */}
-        <div className="bg-gradient-to-r from-[#E05912] via-[#FF8C00] to-[#E05912] py-5 md:py-6">
-        <div className="container-custom px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-            <div className="flex items-center gap-3 text-white">
-              <div className="w-11 h-11 md:w-14 md:h-14 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                <Shield className="w-5 h-5 md:w-7 md:h-7" />
-              </div>
-              <div>
-                <p className="font-bold text-sm md:text-base">Safe Travel</p>
-                <p className="text-[10px] md:text-xs text-white/70">100% Secure Journey</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 text-white">
-              <div className="w-11 h-11 md:w-14 md:h-14 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                <Clock className="w-5 h-5 md:w-7 md:h-7" />
-              </div>
-              <div>
-                <p className="font-bold text-sm md:text-base">24/7 Service</p>
-                <p className="text-[10px] md:text-xs text-white/70">Always Available</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 text-white">
-              <div className="w-11 h-11 md:w-14 md:h-14 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                <Award className="w-5 h-5 md:w-7 md:h-7" />
-              </div>
-              <div>
-                <p className="font-bold text-sm md:text-base">Best Price</p>
-                <p className="text-[10px] md:text-xs text-white/70">Guaranteed</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3 text-white">
-              <div className="w-11 h-11 md:w-14 md:h-14 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                <Globe className="w-5 h-5 md:w-7 md:h-7" />
-              </div>
-              <div>
-                <p className="font-bold text-sm md:text-base">Pan India</p>
-                <p className="text-[10px] md:text-xs text-white/70">All Major Cities</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="pt-12 md:pt-16 pb-8">
-        <div className="container-custom px-4">
-          
-          {/* Partners Section - Moved to Top */}
-          <div className="border-b border-gray-700/50 pb-8 mb-10">
-            <div className="flex flex-col items-center gap-5">
-              <h3 className="text-[#F9B250] text-lg md:text-xl font-bold tracking-wide">✦ Our Partners ✦</h3>
-              <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
-                {/* CKP Parihar Tours */}
-                <a 
-                  href="https://ckptours.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="group flex flex-col items-center gap-2 transition-all hover:scale-105"
-                >
-                  <div className="h-16 md:h-20 bg-gray-800 rounded-xl px-5 py-3 flex items-center justify-center shadow-lg group-hover:shadow-xl group-hover:bg-gray-700 transition-all border border-gray-700/50 group-hover:border-[#F9B250]/50">
-                    <img 
-                      src="/partners/ckp-logo.png" 
-                      alt="CKP Parihar Tours"
-                      className="h-10 md:h-14 w-auto object-contain"
-                    />
-                  </div>
-                </a>
-                {/* Vohtrip */}
-                <a 
-                  href="https://vohtrip.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="group flex flex-col items-center gap-2 transition-all hover:scale-105"
-                >
-                  <div className="h-16 md:h-20 bg-white rounded-xl px-5 py-3 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all border border-gray-200 group-hover:border-[#F9B250]">
-                    <img 
-                      src="/partners/vohtrip-logo.png" 
-                      alt="Vohtrip Travel Agency"
-                      className="h-10 md:h-14 w-auto object-contain"
-                    />
-                  </div>
-                </a>
-                {/* Urbania Rentals India - Commented for now */}
-                {/* <a 
-                  href="https://urbaniarentalsindia.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="group flex flex-col items-center gap-2 transition-all hover:scale-105"
-                >
-                  <div className="h-16 md:h-20 bg-white rounded-xl px-5 py-3 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all border border-gray-200 group-hover:border-[#F9B250]">
-                    <img 
-                      src="/partners/urbania-logo.png" 
-                      alt="Urbania Rentals India"
-                      className="h-10 md:h-14 w-auto object-contain"
-                    />
-                  </div>
-                </a> */}
-              </div>
-            </div>
-          </div>
-
-          {/* Top Section: Brand & Contact */}
-          <div className="grid lg:grid-cols-5 gap-10 md:gap-12 mb-10 border-b border-gray-800/50 pb-10">
-            <div className="lg:col-span-2">
-              <Link href="/" className="inline-block mb-5">
-                <img
-                  src={URLOGO}
-                  alt="Urbania Hire in Jaisalmer"
-                  className="h-auto w-auto object-contain"
-                />
+      <footer id="contact" className="bg-[#3a3a3a] text-gray-200 pb-10 md:pb-12">
+        <div className="container-custom px-4 pt-12 md:pt-16">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+            {/* About Us */}
+            <div>
+              <h4 className={headingCls}>About Us</h4>
+              <Link href="/" className="inline-block mb-4">
+                <img src={URLOGO} alt="Urbania Hire in Jaisalmer" className="h-14 w-auto object-contain" />
               </Link>
-              <p className="text-gray-400 mb-6 leading-relaxed max-w-sm text-sm">
-                Your trusted partner for comfortable and reliable Urbania rentals across India. We prioritize your comfort, safety, and style.
+              <p className="text-sm leading-8 text-gray-200">
+                Urbania Hire in Jaisalmer: Force Urbania 12, 15 &amp; 17 seater, Innova and Tempo Traveller on rent for weddings, corporate travel, family tours and outstation trips across Rajasthan, Delhi, Agra and more. Verified drivers, transparent pricing, 24/7 booking support.
               </p>
-
-              {/* Contact Cards */}
-              <div className="space-y-2.5 mb-6">
-                <a href={`tel:${CONTACT_INFO.phone}`} className="flex items-center gap-3 p-3 bg-gradient-to-r from-gray-800/80 to-gray-800/40 rounded-xl hover:from-[#E05912]/20 hover:to-[#E05912]/5 border border-gray-700/50 hover:border-[#E05912]/30 transition-all group">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#E05912] to-[#FF8C00] flex items-center justify-center shadow-lg shadow-orange-500/20">
-                    <Phone className="w-5 h-5 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Call Us Now</p>
-                    <p className="text-white font-bold">{CONTACT_INFO.phoneDisplay}</p>
-                  </div>
-                  <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-[#E05912] group-hover:translate-x-1 transition-all" />
-                </a>
-                <a href={`mailto:${CONTACT_INFO.bookingEmail}`} className="flex items-center gap-3 p-3 bg-gradient-to-r from-gray-800/80 to-gray-800/40 rounded-xl hover:from-[#E05912]/20 hover:to-[#E05912]/5 border border-gray-700/50 hover:border-[#E05912]/30 transition-all group">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#E05912] to-[#FF8C00] flex items-center justify-center shadow-lg shadow-orange-500/20">
-                    <Mail className="w-5 h-5 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Email Us</p>
-                    <p className="text-white font-bold text-sm">{CONTACT_INFO.bookingEmail}</p>
-                  </div>
-                  <ArrowRight className="w-4 h-4 text-gray-600 group-hover:text-[#E05912] group-hover:translate-x-1 transition-all" />
-                </a>
-                <div className="flex items-center gap-3 p-3 bg-gradient-to-r from-gray-800/80 to-gray-800/40 rounded-xl border border-gray-700/50">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#E05912] to-[#FF8C00] flex items-center justify-center shadow-lg shadow-orange-500/20">
-                    <MapPin className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
-                    <p className="text-[10px] text-gray-500 uppercase tracking-wider">Our Location</p>
-                    <p className="text-white font-bold text-sm">Jaisalmer, Rajasthan 345001</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Social Icons */}
-              <div>
-                <p className="text-white font-bold mb-3 text-sm">Connect With Us</p>
-                <div className="flex gap-2">
-                  {[
-                    { Icon: Facebook, color: "hover:bg-blue-600", label: "Facebook", link: CONTACT_INFO.facebook },
-                    { Icon: Instagram, color: "hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500", label: "Instagram", link: CONTACT_INFO.instagram },
-                    { Icon: Twitter, color: "hover:bg-sky-500", label: "Twitter", link: CONTACT_INFO.twitter },
-                    { Icon: Youtube, color: "hover:bg-red-600", label: "Youtube", link: CONTACT_INFO.youtube }
-                  ].map(({ Icon, color, label, link }, i) => (
-                    <a key={i} href={link} target="_blank" rel="noopener noreferrer" aria-label={label} className={`w-10 h-10 rounded-xl bg-gray-800/80 border border-gray-700/50 flex items-center justify-center text-gray-400 ${color} hover:text-white hover:border-transparent transition-all hover:-translate-y-1 hover:shadow-lg`}>
-                      <Icon className="w-4 h-4" />
-                    </a>
-                  ))}
-                </div>
-              </div>
             </div>
 
-            {/* Links Sections */}
-            <div className="lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-6">
-              {/* Column 1 - Urbania Service */}
-              <div>
-                <h4 className="text-white font-bold text-sm mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-5 rounded-full bg-gradient-to-b from-[#E05912] to-[#FF8C00]"></span>
-                  Urbania Service
-                </h4>
-                <ul className="space-y-2">
-                  {forceUrbaniaServices.map((item) => (
-                    <li key={item.name} className="group">
-                      <Link href={item.href} className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#E05912] transition-colors">
-                        <ChevronRight className="w-3 h-3 text-[#E05912] group-hover:translate-x-1 transition-transform" />
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* Our Services */}
+            <div>
+              <h4 className={headingCls}>Our Services</h4>
+              <ul className="space-y-3.5">
+                {services.map((item) => (
+                  <li key={item.name}>
+                    <Link href={item.href} className={linkCls}>{item.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-              {/* Column 2 - Tourist Vehicle */}
-              <div>
-                <h4 className="text-white font-bold text-sm mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-5 rounded-full bg-gradient-to-b from-[#E05912] to-[#FF8C00]"></span>
-                  Tourist Vehicle
-                </h4>
-                <ul className="space-y-2">
-                  {touristVehicles.map((item) => (
-                    <li key={item.name} className="group">
-                      <Link href={item.href} className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#E05912] transition-colors">
-                        <ChevronRight className="w-3 h-3 text-[#E05912] group-hover:translate-x-1 transition-transform" />
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* Rajasthan Tours */}
+            <div>
+              <h4 className={headingCls}>Rajasthan Tours</h4>
+              <ul className="space-y-3.5">
+                {tours.map((item) => (
+                  <li key={item.name}>
+                    <Link href={item.href} className={linkCls}>{item.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-              {/* Column 3 - Famous Tours */}
-              <div>
-                <h4 className="text-white font-bold text-sm mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-5 rounded-full bg-gradient-to-b from-[#E05912] to-[#FF8C00]"></span>
-                  Famous Tours
-                </h4>
-                <ul className="space-y-2">
-                  {famousTours.map((item) => (
-                    <li key={item.name} className="group">
-                      <Link href={item.href} className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#E05912] transition-colors">
-                        <ChevronRight className="w-3 h-3 text-[#E05912] group-hover:translate-x-1 transition-transform" />
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Column 4 - Force Urbania (Clickable) + Quick Links */}
-              <div>
-                <h4 className="text-white font-bold text-sm mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-5 rounded-full bg-gradient-to-b from-[#E05912] to-[#FF8C00]"></span>
-                  Force Urbania
-                </h4>
-                <ul className="space-y-2">
-                  {urbaniaFleet.map((item) => (
-                    <li key={item.name} className="group">
-                      <Link href={`/vehicles/${item.slug}`} className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#E05912] transition-colors">
-                        <ChevronRight className="w-3 h-3 text-[#E05912] group-hover:translate-x-1 transition-transform" />
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-
-                {/* Quick Links (Clickable) */}
-                <h4 className="text-white font-bold text-sm mt-6 mb-4 flex items-center gap-2">
-                  <span className="w-1.5 h-5 rounded-full bg-gradient-to-b from-[#E05912] to-[#FF8C00]"></span>
-                  Quick Links
-                </h4>
-                <ul className="space-y-2">
-                  {quickLinks.map((item) => (
-                    <li key={item.name} className="group">
-                      <Link href={item.href} className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#E05912] transition-colors">
-                        <ChevronRight className="w-3 h-3 text-[#E05912] group-hover:translate-x-1 transition-transform" />
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+            {/* Contact Info */}
+            <div>
+              <h4 className={headingCls}>Contact Info</h4>
+              <p className="text-sm leading-7 mb-4">
+                <strong className="text-white">Address:</strong> {CONTACT_INFO.addressFull}
+              </p>
+              <p className="text-sm leading-7 mb-4">
+                <strong className="text-white">For Booking (24×7):</strong>
+                <br />
+                <a href={`tel:${CONTACT_INFO.phone}`} className="hover:text-[#F9B250] transition-colors">{CONTACT_INFO.phoneDisplay}</a>
+              </p>
+              <p className="text-sm leading-7 mb-5">
+                Email:{" "}
+                <a href={`mailto:${CONTACT_INFO.bookingEmail}`} className="hover:text-[#F9B250] transition-colors">{CONTACT_INFO.bookingEmail}</a>
+              </p>
+              <div className="flex gap-3">
+                <a href={CONTACT_INFO.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram" className={socialCls}>
+                  <Instagram className="w-5 h-5" />
+                </a>
+                <a href={CONTACT_INFO.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook" className={socialCls}>
+                  <Facebook className="w-5 h-5" />
+                </a>
+                <a href={`https://wa.me/${CONTACT_INFO.whatsappNumber}`} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className={socialCls}>
+                  <MessageCircle className="w-5 h-5" />
+                </a>
               </div>
             </div>
           </div>
 
-          {/* Bottom Bar */}
-          <div className="flex flex-col items-center justify-center gap-2 pt-3 pb-1">
-            <p className="text-xs md:text-sm text-gray-500 font-medium text-center">
-              © {currentYear} <span className="text-white font-semibold">Urbania Hire in Jaisalmer</span>. All Rights Reserved.
-            </p>
-            <p className="text-xs md:text-sm text-gray-500 font-medium text-center">
-              Design and Develop by{" "}
-              <a
-                href="https://instagram.com/tejaram__jakhar"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white font-semibold hover:text-[#E05912] transition-colors"
-              >
-                Teja Jakhar
-              </a>
-            </p>
-          </div>
+          {/* Bottom links */}
+          <nav aria-label="Footer" className="mt-12 border-y border-gray-500/60 py-5 flex flex-wrap justify-center gap-x-8 gap-y-3">
+            {bottomLinks.map((item) => (
+              <Link key={item.name} href={item.href} className="text-sm text-white hover:text-[#F9B250] transition-colors">
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+
+          {/* Copyright */}
+          <p className="pt-6 text-center text-sm text-white">
+            Copyright © {currentYear} <span className="text-[#F9B250]">Urbania Hire in Jaisalmer</span> All Right Reserved.
+            <span className="mx-3 text-gray-500">|</span>
+            Created By:{" "}
+            <a href="https://instagram.com/tejaram__jakhar" target="_blank" rel="noopener noreferrer" className="text-[#F9B250] hover:underline">
+              Teja
+            </a>
+          </p>
         </div>
-      </div>
-    </footer>
+      </footer>
     </>
   );
 };

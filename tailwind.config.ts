@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['var(--font-playfair)', 'serif'],
+        display: ['var(--font-ubuntu)', 'Ubuntu', 'sans-serif'],
+        ubuntu: ['var(--font-ubuntu)', 'sans-serif'],
         sans: ['var(--font-rubik)', 'sans-serif'],
       },
       colors: {
