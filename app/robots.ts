@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/private/', '/admin/', '/_next/', '/api/'],
         },
-        sitemap: 'https://urbaniahireindia.com/sitemap.xml',
+        sitemap: 'https://www.urbaniahireinjaisalmer.com/sitemap.xml',
     }
 }

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: cityData.metaTitle,
             description: cityData.metaDescription,
             type: 'website',
-            url: `https://urbaniahireindia.com/cities/${city}`,
+            url: `https://www.urbaniahireinjaisalmer.com/cities/${city}`,
         }
     };
 }

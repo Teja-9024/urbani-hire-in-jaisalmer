@@ -48,7 +48,7 @@ export default async function TourPage({ params }: { params: Promise<{ slug: str
                 cityName={tour.destination}
                 price={tour.price}
                 duration={tour.duration}
-                url={`https://urbaniahireindia.com/${slug}`}
+                url={`https://www.urbaniahireinjaisalmer.com/${slug}`}
             />
             <TourTemplate tour={tour} />
         </>

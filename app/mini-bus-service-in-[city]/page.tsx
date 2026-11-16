@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale: 'en_IN'
     },
     alternates: {
-      canonical: `https://urbaniahireindia.com/mini-bus-service-in-${city}`
+      canonical: `https://www.urbaniahireinjaisalmer.com/mini-bus-service-in-${city}`
     }
   };
 }
@@ -58,7 +58,7 @@ export default async function Page({ params }: PageProps) {
         serviceName={`Mini-Bus Service in ${cityName}`}
         description={cityInfo?.description || `Premium mini-bus rental in ${cityName}`}
         priceRange="₹40-₹55/km"
-        url={`https://urbaniahireindia.com/mini-bus-service-in-${city}`}
+        url={`https://www.urbaniahireinjaisalmer.com/mini-bus-service-in-${city}`}
         lat={cityGeo?.lat}
         lng={cityGeo?.lng}
       />

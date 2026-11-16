@@ -33,11 +33,10 @@ const Footer = () => {
 
   const bottomLinks = [
     { name: "Home", href: "/" },
-    { name: "About Us", href: "/#about" },
-    { name: "Pricing", href: "/#fleet" },
-    { name: "FAQ", href: "/#faq" },
+    { name: "About Us", href: "/about" },
+    { name: "Our Fleet", href: "/our-fleet" },
     { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/#contact" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const headingCls = "text-white font-bold text-base uppercase tracking-wide pb-3 mb-5 border-b border-[#D9992B]";

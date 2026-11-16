@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale: 'en_IN'
     },
     alternates: {
-      canonical: `https://urbaniahireindia.com/taxi-service-in-${city}`
+      canonical: `https://www.urbaniahireinjaisalmer.com/taxi-service-in-${city}`
     }
   };
 }
@@ -58,7 +58,7 @@ export default async function Page({ params }: PageProps) {
         serviceName={`Taxi Service in ${cityName}`}
         description={cityInfo?.description || `Professional taxi service in ${cityName}`}
         priceRange="₹15-₹25/km"
-        url={`https://urbaniahireindia.com/taxi-service-in-${city}`}
+        url={`https://www.urbaniahireinjaisalmer.com/taxi-service-in-${city}`}
         lat={cityGeo?.lat}
         lng={cityGeo?.lng}
       />

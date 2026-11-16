@@ -99,7 +99,7 @@ function generateJsonLd(vehicle: ReturnType<typeof getVehicleBySlug>) {
             priceCurrency: 'INR',
             priceValidUntil: '2026-12-31',
             availability: 'https://schema.org/InStock',
-            url: `https://urbaniahireindia.com/vehicles/${vehicle.slug}`,
+            url: `https://www.urbaniahireinjaisalmer.com/vehicles/${vehicle.slug}`,
         };
     }
 

@@ -40,13 +40,18 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://urbaniahireindia.com'),
+    metadataBase: new URL('https://www.urbaniahireinjaisalmer.com'),
     title: {
-        default: "Urbania Hire in Jaisalmer | Force Urbania 12 15 17 Seater Rental",
+        default: "Urbania Hire in Jaisalmer | Force Urbania 12 15 17 Seater Rental in Rajasthan",
         template: "%s | Urbania Hire in Jaisalmer"
     },
-    description: "Urbania hire in India — Book Force Urbania 12, 15, 17 seater rental across India. Premium Urbania hire in Jaipur, Delhi, Udaipur, Jodhpur, Jaisalmer, Agra, Bikaner. Best rates for Rajasthan tours, weddings, corporate events. 24/7 support.",
+    description: "Urbania hire in Jaisalmer — Book Force Urbania 12, 15, 17 seater rental in Jaisalmer and across Rajasthan & India. Premium Urbania hire in Jaipur, Delhi, Udaipur, Jodhpur, Jaisalmer, Agra, Bikaner. Best rates for Rajasthan tours, weddings, corporate events. 24/7 support.",
     keywords: [
+        "Urbania hire in Jaisalmer",
+        "Force Urbania rental Jaisalmer",
+        "tempo traveller Jaisalmer",
+        "Jaisalmer sightseeing vehicle hire",
+        "Jaisalmer airport transfer",
         "Urbania hire in India",
         "Urbania hire in Rajasthan",
         "Urbania hire in Delhi",
@@ -112,7 +117,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         locale: 'en_IN',
-        url: 'https://urbaniahireindia.com',
+        url: 'https://www.urbaniahireinjaisalmer.com',
         siteName: 'Urbania Hire in Jaisalmer',
         title: 'Urbania Hire in India | Force Urbania Rental | 12 15 17 Seater',
         description: 'Urbania hire in India — Book Force Urbania 12, 15, 17 seater rental across Rajasthan & Delhi. Best rates for tours, weddings & corporate events.',
@@ -151,27 +156,46 @@ export const metadata: Metadata = {
 };
 
 // JSON-LD Structured Data
+const siteNavJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: [
+        ['Home', '/'],
+        ['About Us', '/about'],
+        ['Our Fleet', '/our-fleet'],
+        ['Blog', '/blog'],
+        ['Contact Us', '/contact'],
+    ].map(([name, path], i) => ({
+        '@type': 'SiteNavigationElement',
+        position: i + 1,
+        name,
+        url: `https://www.urbaniahireinjaisalmer.com${path}`,
+    })),
+};
+
 const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
         {
             '@type': 'LocalBusiness',
-            '@id': 'https://urbaniahireindia.com/#business',
+            '@id': 'https://www.urbaniahireinjaisalmer.com/#business',
             name: 'Urbania Hire in Jaisalmer',
-            image: 'https://urbaniahireindia.com/og-image.jpg',
+            image: 'https://www.urbaniahireinjaisalmer.com/og-image.jpg',
             description: 'Premium Force Urbania 12, 15, 17 seater luxury van rental services across Rajasthan for weddings, tours, and corporate events. Serving Jaipur, Udaipur, Jodhpur, Jaisalmer, Mount Abu, Bikaner.',
-            url: 'https://urbaniahireindia.com',
+            url: 'https://www.urbaniahireinjaisalmer.com',
             telephone: '+918949304824',
             email: 'ckptours@gmail.com',
             address: {
                 '@type': 'PostalAddress',
                 addressCountry: 'IN',
+                addressLocality: 'Jaisalmer',
                 addressRegion: 'Rajasthan',
+                postalCode: '345001',
             },
             geo: {
                 '@type': 'GeoCoordinates',
-                latitude: 26.9124,
-                longitude: 75.7873,
+                latitude: 26.9157,
+                longitude: 70.9083,
             },
             priceRange: '₹₹₹',
             openingHoursSpecification: {
@@ -219,63 +243,63 @@ const jsonLd = {
         },
         {
             '@type': 'WebSite',
-            '@id': 'https://urbaniahireindia.com/#website',
-            url: 'https://urbaniahireindia.com',
+            '@id': 'https://www.urbaniahireinjaisalmer.com/#website',
+            url: 'https://www.urbaniahireinjaisalmer.com',
             name: 'Urbania Hire in Jaisalmer',
             description: 'Urbania hire in India - Premium Force Urbania rental services across Rajasthan & Delhi. 12, 15, 17 seater luxury van hire.',
             publisher: {
-                '@id': 'https://urbaniahireindia.com/#business',
+                '@id': 'https://www.urbaniahireinjaisalmer.com/#business',
             },
             hasPart: [
                 {
                     '@type': 'SiteNavigationElement',
                     name: '12 Seater Force Urbania',
-                    url: 'https://urbaniahireindia.com/12-seater-urbania'
+                    url: 'https://www.urbaniahireinjaisalmer.com/12-seater-urbania'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: '15 Seater Force Urbania',
-                    url: 'https://urbaniahireindia.com/15-seater-urbania'
+                    url: 'https://www.urbaniahireinjaisalmer.com/15-seater-urbania'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: '17 Seater Force Urbania',
-                    url: 'https://urbaniahireindia.com/17-seater-urbania'
+                    url: 'https://www.urbaniahireinjaisalmer.com/17-seater-urbania'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Toyota Innova Crysta',
-                    url: 'https://urbaniahireindia.com/innova-crysta'
+                    url: 'https://www.urbaniahireinjaisalmer.com/innova-crysta'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Jaipur',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-jaipur'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jaipur'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Udaipur',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-udaipur'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-udaipur'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Jodhpur',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-jodhpur'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jodhpur'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Jaisalmer',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-jaisalmer'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jaisalmer'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Mount Abu',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-mount-abu'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-mount-abu'
                 },
                 {
                     '@type': 'SiteNavigationElement',
                     name: 'Force Urbania in Bikaner',
-                    url: 'https://urbaniahireindia.com/force-urbania-in-bikaner'
+                    url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-bikaner'
                 },
             ],
         },
@@ -283,7 +307,7 @@ const jsonLd = {
             '@type': 'Service',
             serviceType: 'Vehicle Rental',
             provider: {
-                '@id': 'https://urbaniahireindia.com/#business',
+                '@id': 'https://www.urbaniahireinjaisalmer.com/#business',
             },
             areaServed: {
                 '@type': 'Country',
@@ -300,7 +324,7 @@ const jsonLd = {
                             serviceType: 'Vehicle Rental Service',
                             name: '12 Seater Force Urbania',
                             description: 'Premium 12 seater Force Urbania van for group tours and corporate travel',
-                            image: 'https://urbaniahireindia.com/vehicles/12-seater/main.jpeg',
+                            image: 'https://www.urbaniahireinjaisalmer.com/vehicles/12-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
                                 name: 'Urbania Hire in Jaisalmer',
@@ -313,7 +337,7 @@ const jsonLd = {
                         price: '30',
                         priceCurrency: 'INR',
                         availability: 'https://schema.org/InStock',
-                        url: 'https://urbaniahireindia.com/12-seater-urbania',
+                        url: 'https://www.urbaniahireinjaisalmer.com/12-seater-urbania',
                     },
                     {
                         '@type': 'Offer',
@@ -322,7 +346,7 @@ const jsonLd = {
                             serviceType: 'Vehicle Rental Service',
                             name: '15 Seater Force Urbania',
                             description: 'Spacious 15 seater Force Urbania van ideal for large groups and family tours',
-                            image: 'https://urbaniahireindia.com/vehicles/15-seater/main.jpeg',
+                            image: 'https://www.urbaniahireinjaisalmer.com/vehicles/15-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
                                 name: 'Urbania Hire in Jaisalmer',
@@ -335,7 +359,7 @@ const jsonLd = {
                         price: '32',
                         priceCurrency: 'INR',
                         availability: 'https://schema.org/InStock',
-                        url: 'https://urbaniahireindia.com/15-seater-urbania',
+                        url: 'https://www.urbaniahireinjaisalmer.com/15-seater-urbania',
                     },
                     {
                         '@type': 'Offer',
@@ -344,7 +368,7 @@ const jsonLd = {
                             serviceType: 'Vehicle Rental Service',
                             name: '17 Seater Force Urbania',
                             description: 'Luxury 17 seater Force Urbania van with AC, pushback seats, and professional driver',
-                            image: 'https://urbaniahireindia.com/vehicles/17-seater/main.jpeg',
+                            image: 'https://www.urbaniahireinjaisalmer.com/vehicles/17-seater/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
                                 name: 'Urbania Hire in Jaisalmer',
@@ -357,7 +381,7 @@ const jsonLd = {
                         price: '35',
                         priceCurrency: 'INR',
                         availability: 'https://schema.org/InStock',
-                        url: 'https://urbaniahireindia.com/17-seater-urbania',
+                        url: 'https://www.urbaniahireinjaisalmer.com/17-seater-urbania',
                     },
                     {
                         '@type': 'Offer',
@@ -366,7 +390,7 @@ const jsonLd = {
                             serviceType: 'Vehicle Rental Service',
                             name: 'Toyota Innova Crysta',
                             description: 'Premium 7 seater Toyota Innova Crysta with luxury features and superior comfort',
-                            image: 'https://urbaniahireindia.com/vehicles/innova/main.jpeg',
+                            image: 'https://www.urbaniahireinjaisalmer.com/vehicles/innova/main.jpeg',
                             provider: {
                                 '@type': 'Organization',
                                 name: 'Urbania Hire in Jaisalmer',
@@ -379,14 +403,14 @@ const jsonLd = {
                         price: '20',
                         priceCurrency: 'INR',
                         availability: 'https://schema.org/InStock',
-                        url: 'https://urbaniahireindia.com/innova-crysta',
+                        url: 'https://www.urbaniahireinjaisalmer.com/innova-crysta',
                     },
                 ],
             },
         },
         {
             '@type': 'ItemList',
-            '@id': 'https://urbaniahireindia.com/#cityservices',
+            '@id': 'https://www.urbaniahireinjaisalmer.com/#cityservices',
             name: 'Force Urbania Rental Services by City',
             description: 'Force Urbania rental available in major cities across India',
             itemListElement: [
@@ -397,13 +421,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Jaipur',
                         description: 'Force Urbania rental in Jaipur for Pink City tours, weddings, and Rajasthan heritage trips',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-jaipur',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jaipur',
                         areaServed: {
                             '@type': 'City',
                             name: 'Jaipur'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -414,13 +438,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Udaipur',
                         description: 'Luxury Force Urbania rental in Udaipur for Lake City tours, weddings, and royal palace visits',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-udaipur',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-udaipur',
                         areaServed: {
                             '@type': 'City',
                             name: 'Udaipur'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -431,13 +455,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Jodhpur',
                         description: 'Force Urbania in Jodhpur for Blue City tours, Mehrangarh Fort visits, and desert tours',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-jodhpur',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jodhpur',
                         areaServed: {
                             '@type': 'City',
                             name: 'Jodhpur'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -448,13 +472,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Jaisalmer',
                         description: 'Force Urbania rental in Jaisalmer for Golden City tours, Sam Sand Dunes desert safari',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-jaisalmer',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-jaisalmer',
                         areaServed: {
                             '@type': 'City',
                             name: 'Jaisalmer'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -465,13 +489,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Mount Abu',
                         description: 'Force Urbania rental in Mount Abu for Dilwara Temples, Nakki Lake, hill station tours',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-mount-abu',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-mount-abu',
                         areaServed: {
                             '@type': 'City',
                             name: 'Mount Abu'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -482,13 +506,13 @@ const jsonLd = {
                         '@type': 'Service',
                         name: 'Force Urbania Rental in Bikaner',
                         description: 'Force Urbania rental in Bikaner for Junagarh Fort tours, camel safari, desert city exploration',
-                        url: 'https://urbaniahireindia.com/force-urbania-in-bikaner',
+                        url: 'https://www.urbaniahireinjaisalmer.com/force-urbania-in-bikaner',
                         areaServed: {
                             '@type': 'City',
                             name: 'Bikaner'
                         },
                         provider: {
-                            '@id': 'https://urbaniahireindia.com/#business'
+                            '@id': 'https://www.urbaniahireinjaisalmer.com/#business'
                         }
                     }
                 },
@@ -511,6 +535,10 @@ export default function RootLayout({
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(siteNavJsonLd) }}
                 />
             </head>
             <body className={`${rubik.variable} ${playfair.variable} ${ubuntu.variable} font-sans`} suppressHydrationWarning>

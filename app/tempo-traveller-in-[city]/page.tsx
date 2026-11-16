@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       locale: 'en_IN'
     },
     alternates: {
-      canonical: `https://urbaniahireindia.com/tempo-traveller-in-${city}`
+      canonical: `https://www.urbaniahireinjaisalmer.com/tempo-traveller-in-${city}`
     }
   };
 }
@@ -59,7 +59,7 @@ export default async function Page({ params }: PageProps) {
         serviceName={`Tempo Traveller in ${cityName}`}
         description={cityInfo?.description || `Premium tempo traveller rental in ${cityName}`}
         priceRange="₹7500-₹10000"
-        url={`https://urbaniahireindia.com/tempo-traveller-in-${city}`}
+        url={`https://www.urbaniahireinjaisalmer.com/tempo-traveller-in-${city}`}
         lat={cityGeo?.lat}
         lng={cityGeo?.lng}
       />

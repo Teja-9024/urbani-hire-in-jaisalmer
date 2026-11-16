@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: `Explore ${cityName} with premium Force Urbania guided tour packages. Book 12, 15, 17 seater Urbania for ${cityName} sightseeing, heritage tours, and group travel. Best rates, professional drivers, 24/7 support.`,
     keywords: `${cityName} tour package, ${cityName} sightseeing urbania, force urbania ${cityName} tour, urbania hire ${cityName}, rajasthan tour urbania`,
     alternates: {
-      canonical: `https://urbaniahireindia.com/${city}-tour`,
+      canonical: `https://www.urbaniahireinjaisalmer.com/${city}-tour`,
     },
     openGraph: {
       title: `${cityName} Tour Package | Force Urbania Rental`,
@@ -56,7 +56,7 @@ export default async function Page({ params }: PageProps) {
         cityName={cityName}
         price="Starting from ₹5000"
         duration="1-3 days"
-        url={`https://urbaniahireindia.com/${city}-tour`}
+        url={`https://www.urbaniahireinjaisalmer.com/${city}-tour`}
       />
       <ServicePageClient
         citySlug={city}

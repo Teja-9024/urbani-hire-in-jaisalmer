@@ -147,8 +147,8 @@ export default function ServicePageClient({
 
   // Breadcrumb items
   const breadcrumbItems = [
-    { name: "Home", url: "https://urbaniahireindia.com/" },
-    { name: cityName, url: `https://urbaniahireindia.com/${serviceType === 'urbania' ? 'force-urbania-in' : serviceType === 'tempo' ? 'tempo-traveller-in' : serviceType === 'taxi' ? 'taxi-service-in' : 'mini-bus-service-in'}-${citySlug}` }
+    { name: "Home", url: "https://www.urbaniahireinjaisalmer.com/" },
+    { name: cityName, url: `https://www.urbaniahireinjaisalmer.com/${serviceType === 'urbania' ? 'force-urbania-in' : serviceType === 'tempo' ? 'tempo-traveller-in' : serviceType === 'taxi' ? 'taxi-service-in' : 'mini-bus-service-in'}-${citySlug}` }
   ];
 
   return (

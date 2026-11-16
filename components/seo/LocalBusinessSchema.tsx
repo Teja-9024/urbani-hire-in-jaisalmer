@@ -75,7 +75,7 @@ export default function LocalBusinessSchema({
               "price": "30",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock",
-              "url": "https://urbaniahireindia.com/12-seater-urbania"
+              "url": "https://www.urbaniahireinjaisalmer.com/12-seater-urbania"
             },
             {
               "@type": "Offer",
@@ -96,7 +96,7 @@ export default function LocalBusinessSchema({
               "price": "32",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock",
-              "url": "https://urbaniahireindia.com/15-seater-urbania"
+              "url": "https://www.urbaniahireinjaisalmer.com/15-seater-urbania"
             },
             {
               "@type": "Offer",
@@ -117,7 +117,7 @@ export default function LocalBusinessSchema({
               "price": "35",
               "priceCurrency": "INR",
               "availability": "https://schema.org/InStock",
-              "url": "https://urbaniahireindia.com/17-seater-urbania"
+              "url": "https://www.urbaniahireinjaisalmer.com/17-seater-urbania"
             }
           ]
         }

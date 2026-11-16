@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "vehicle rental guide",
   ],
   alternates: {
-    canonical: "https://urbaniahireindia.com/blog",
+    canonical: "https://www.urbaniahireinjaisalmer.com/blog",
   },
   openGraph: {
     title: "Travel Blog | Urbania Hire in Jaisalmer",
     description:
       "Expert travel guides, vehicle comparisons, and group travel tips for India.",
-    url: "https://urbaniahireindia.com/blog",
+    url: "https://www.urbaniahireinjaisalmer.com/blog",
     siteName: COMPANY_INFO.name,
     type: "website",
   },
@@ -43,17 +43,17 @@ export default function BlogPage() {
             "@type": "Blog",
             name: `${COMPANY_INFO.name} Travel Blog`,
             description: "Expert travel guides and group travel tips for India",
-            url: "https://urbaniahireindia.com/blog",
+            url: "https://www.urbaniahireinjaisalmer.com/blog",
             publisher: {
               "@type": "Organization",
               name: COMPANY_INFO.name,
-              url: "https://urbaniahireindia.com",
+              url: "https://www.urbaniahireinjaisalmer.com",
             },
             blogPost: blogPosts.slice(0, 10).map((post) => ({
               "@type": "BlogPosting",
               headline: post.title,
               description: post.excerpt,
-              url: `https://urbaniahireindia.com/blog/${post.slug}`,
+              url: `https://www.urbaniahireinjaisalmer.com/blog/${post.slug}`,
               datePublished: post.publishedAt,
               author: {
                 "@type": "Organization",

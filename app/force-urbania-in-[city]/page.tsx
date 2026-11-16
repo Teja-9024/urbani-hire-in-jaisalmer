@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: `Premium Force Urbania rental in ${cityName}. Book now!`
     },
     alternates: {
-      canonical: `https://urbaniahireindia.com/force-urbania-in-${city}`
+      canonical: `https://www.urbaniahireinjaisalmer.com/force-urbania-in-${city}`
     }
   };
 }
@@ -65,7 +65,7 @@ export default async function Page({ params }: PageProps) {
         serviceName={`Force Urbania Rental in ${cityName}`}
         description={cityInfo?.description || `Premium Force Urbania rental service in ${cityName}`}
         priceRange="₹7500-₹10000"
-        url={`https://urbaniahireindia.com/force-urbania-in-${city}`}
+        url={`https://www.urbaniahireinjaisalmer.com/force-urbania-in-${city}`}
         lat={cityGeo?.lat}
         lng={cityGeo?.lng}
       />

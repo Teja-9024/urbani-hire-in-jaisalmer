@@ -4,7 +4,7 @@ import { tourDestinations } from '@/lib/tourData';
 import { getAllBlogSlugs } from '@/lib/blogData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://urbaniahireindia.com';
+    const baseUrl = 'https://www.urbaniahireinjaisalmer.com';
 
     // Static pages
     const staticPages: MetadataRoute.Sitemap = [
@@ -14,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 1,
         },
+        ...['about', 'contact', 'our-fleet'].map((path) => ({
+            url: `${baseUrl}/${path}`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.8,
+        })),
         {
             url: `${baseUrl}/blog`,
             lastModified: new Date(),
